@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>  
+<html>  
+<head>
+<title></title>      
+</head>  
+<body>
+<label>First Number</label>  
+<input type="text" id="txtA">
+<label>Multiplier</label>  
+<input type="text" id="txtB">
+<label>Last Number</label>
+<input type="text" id="txtC">
+<button onclick="multiply()">Click Me</button>
+<script>function multiply(){
+var tA = document.getElementById("txtA").value;
+var tB = document.getElementById("txtB").value;
+var tC = document.getElementById("txtC").value;
+for (var i = tA; i <= tC; i++) {var multi = i*tB;
+document.write(i + " X " + tB + " = " + multi + "<br>");}}
+</script>
+</body>  
+</html>
